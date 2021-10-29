@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/finish"
+        android:title="关闭" />
+    <item
+        android:id="@+id/bt_txt"
+        android:title="导入数据"/>
+    <item
+        android:id="@+id/bt_next"
+        android:title="重绘轨迹"/>
+    <item
+        android:id="@+id/bt_delete"
+        android:title="删除TXT"/>
+    <item
+        android:id="@+id/clean"
+        android:title="清屏" />
+    <item
+        android:id="@+id/size"
+        android:title="字体宽度" />
+    <item
+        android:id="@+id/bt_point"
+        android:title="线连接"
+        />
+    <item
+        android:id="@+id/bt_photo"
+        android:title="截图"
+        />
+    <item
+        android:id="@+id/ble"
+        android:title="设备信息" />
+
+</menu>

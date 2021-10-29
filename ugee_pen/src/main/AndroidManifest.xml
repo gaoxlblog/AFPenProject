@@ -1,0 +1,21 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.ugee.pen" >
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="true" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <application >
+        <service
+            android:name="cn.ugee.pen.service.UgeeDataService"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.ugee.app.service.UgeeDataService" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="cn.ugee.app.UgeeDataService.exit" />
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

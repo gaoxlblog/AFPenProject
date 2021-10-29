@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ugee产线工具</string>
+    <string name="student_title">设备连接</string>
+    <string name="ble_not_support_alert">当前设备不支持BLE,请使用USB连接方式</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="device_battery">电池电量</string>
+    <string name="firmware_version">固件版本</string>
+    <string name="device_update">升级</string>
+    <string name="paired_device">已配对的设备</string>
+    <string name="pairable_device">可以配对的设备</string>
+    <string name="bluetooth_device_scan">扫描</string>
+    <string name="scanning">扫描中...</string>
+    <string name="unknow">未知</string>
+    <string name="title_dia_notice">提示</string>
+    <string name="delete_paired_device">删除配对</string>
+    <string name="my_device">我的设备</string>
+    <string name="device_disconnect">断开</string>
+    <string name="connected_device">已连接设备</string>
+    <string name="device_rename">重命名</string>
+    <string name="update_version">升级</string>
+    <string name="title_device_info">设备详情</string>
+</resources>

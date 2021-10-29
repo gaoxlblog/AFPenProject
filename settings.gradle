@@ -1,0 +1,3 @@
+rootProject.name='chanxian'
+include ':app'
+include ':ugee_pen'

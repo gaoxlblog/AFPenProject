@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.3dp</item>
+        <item name="android:background">@color/line_color</item>
+    </style>
+    <style name="line_black">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.3dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+    <!--dialog基类-->
+    <style name="BaseDialogStyle" parent="android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!-- 无边框 -->
+        <item name="android:windowIsFloating">true</item><!-- 是否浮现在activity之上,必须设为true-->
+        <item name="android:windowNoTitle">true</item><!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item><!-- 背景透明 -->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    <!--透明dialog-->
+    <style name="TranslucentDialogStyle" parent="BaseDialogStyle">
+        <item name="android:backgroundDimEnabled">false</item><!-- 不模糊 -->
+        <item name="android:windowIsTranslucent">false</item><!-- 不透明 -->
+    </style>
+
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+</resources>
